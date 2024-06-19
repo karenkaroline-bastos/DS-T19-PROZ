@@ -1,0 +1,23 @@
+if 
+
+for
+
+def
+
+try and except # tratamento de exceção
+
+
+#Utilitários
+
+sorted
+
+max and min
+
+Seguem todas as operadores de comparação:
+
+< - menor que
+> - maior que
+<= - menor ou igual a
+>= - maior ou igual a
+== - igual a
+!= - diferente de
