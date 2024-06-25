@@ -1,14 +1,14 @@
-#DICIONARIOS
+#DICIONÁRIOS
 
-aluno = { #criando o dicionario
+aluno = { #criando o dicionário
     'nome':'João',
-    'idade': 21,                      #inserindo informação
-    'curso': 'Ciencias da Computação'  #e criando tópicos
+    'idade': 21,                      #inserindo informação e criando tópicos
+    'curso': 'Ciencias da Computação'  
 }
 
-print(aluno) # exibindo o dicionario
+print(aluno) #exibindo o dicionário
 
 print(aluno['nome']) #exibindo o tópico nome
 
 aluno['faculdade'] = 'UFMG'  #criando um novo tópico e inserindo a informação
-print(aluno)
+print(aluno) #exibindo o dicionário

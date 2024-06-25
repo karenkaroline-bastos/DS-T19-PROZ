@@ -8,3 +8,9 @@ except ZeroDivisionError:    #exceção Diviisão por zero
     print('Erro: Divisão por zero.') #exibe a mensagem de erro
 except ValueError:    #exceção valor errado
     print('Erro: Valor inválido! Digite sempre um número inteiro.') #exibe a mensagem de erro
+
+    #except masis usados
+    #ValueError
+    #IndexError
+    #MemoryError
+    #ConnectionError
