@@ -1,7 +1,6 @@
 val_div = float(input("informe o valor da dívida: "))
 val_jur = int(input("informe o valor do juros: "))
 qtd_parc = int(input("informe a quantidade de parcelas: "))
-#val_parc = float(input("informe o valor das parcelas: "))
 val_parc = val_div/qtd_parc
 
 juros3 = val_div+(val_div*(10/100))
