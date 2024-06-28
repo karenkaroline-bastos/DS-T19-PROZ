@@ -1,3 +1,4 @@
+#DESAFIO 1
 def cal_soma(x,y,z):
     return x + y + z
 
@@ -16,7 +17,7 @@ print(f'A soma é: {resultado_soma}.')
 resultado_media = cal_media(x,y,z)
 print(f'A média é: {resultado_media}')
 
-
+#DESAFIO 2
 def cal_menor(x,y,z):
     if x < y and x < z:
         print(f'Menor numero é: {x}')
