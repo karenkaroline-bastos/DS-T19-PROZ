@@ -15,6 +15,6 @@ numeros = [n1,n2,n3,n4,n5]
 
 multi = [num * 2 for num in numeros] #for(para) vai multiplicar por 2 todos os números da lista
 
-print(multi)
+print(numeros[0])
 
 
