@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+html{
+    background-image: url(/curriculo/imagens/abstrata-realista-de-fundo.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+:root {
+    --cor-primaria: #102C57;
+    --cor-secundaria: #19619f;
+    --cor-terciaria: #5B99C2;
+    --cor-quartenaria: #F9DBBA;
+
+    --fonte-primaria: Playfair Display, serif;
+
+}
+
+body {
+    background-color: rgba(217, 227, 239, 0.729);
+    width: 50px 300px;
+    padding: 25px 50px;
+    margin: 350px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.banner{
+    width: 100%;
+}
+
+nav ul{
+    padding-top: 15px;
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+nav ul li{
+    padding: 0px 15px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-size: 25px;
+}
+
+nav img{
+    position: absolute;
+}
+
+.conteudo_principal{
+    display: flex; 
+    align-items: flex-start;
+    justify-content: center;
+    padding: 15px;
+    gap: 40px;
+}
+
+.teste1{
+    width: 50%;
+    height: 50%;
+}
+
+.image {
+    width: 500px;
+    height: 700px;
+    background-image: url(../curriculo/imagens/foto-karentrabalho.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: 20%;
+    background-color: gray;
+}
+
+
+
+
+h1 {
+    color: --cor-primaria;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+
+}
+
+h2 {
+    color: var(--cor-secundaria);
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+
+dt,
+dd{
+    font-size: 20px; 
+}
+
+.titulo-destaque{
+    color: var(--cor-secundaria);
+}
+
+
+.comp,
+.curso{
+    width: 50%;
+}
+
+
+.comp-curso {
+    display: flex;
+    text-align: justify;
+    padding: 15px;
+}
+
+.logo-rede-social{
+    width: 40px;
+}
+
+footer {
+    text-align: center;
+}
