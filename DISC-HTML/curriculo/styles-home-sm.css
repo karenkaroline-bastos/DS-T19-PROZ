@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 html{
-    background-image: url(/curriculo/imagens/abstrata-realista-de-fundo.png);
+    background-image: url(/DISC-HTML/curriculo/imagens/gradient-technology-futuristic.png);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -9,14 +9,15 @@ html{
     --cor-primaria: #102C57;
     --cor-secundaria: #19619f;
     --cor-terciaria: #5B99C2;
-    --cor-quartenaria: #F9DBBA;
+    --cor-quartenaria: #ffffff;
+    --cor-quinquenario: #414141;
 
     --fonte-primaria: Playfair Display, serif;
 
 }
 
 .body-home {
-    background-color: rgba(217, 227, 239, 0.729);
+    background-color: rgba(81, 127, 184, 0.686);
     width: 100px 300px;
     padding: 25px 50px;
     margin: 150px;
@@ -60,19 +61,18 @@ nav img{
 }
 
 .image {
-    width: 400px;
-    height: 400px;
-    background-image: url(../curriculo/imagens/foto-karentrabalho.jpeg);
+    width: 300px;
+    height: 500px;
+    background-image: url(../curriculo/imagens/karen-perfil.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
     border-radius: 20%;
-    background-color: gray;
 }
 
 .image-sobre-mim {
-    width: 650px;
-    height: 650px;
+    width: 500px;
+    height: 475px;
     background-image: url(../curriculo/imagens/foto-karentrabalho.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,9 +88,15 @@ h1 {
     font-size: 60px;
     text-align: center;
     font-family: var(--fonte-primaria);
-
 }
 
+h2{
+    color: var(--cor-secundaria);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    font-family: var(--fonte-primaria); 
+}
 
 p {
     font-size: 20px;
@@ -101,10 +107,47 @@ p {
 }
 
 
+.button-contatos{
+  position: relative;  
+  padding-left: 200px
+}
+
+button {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:17px;
+    border-radius:15px;
+    padding-left:10px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom:5px;
+    background-color:var(--cor-terciaria);
+    outline:none;
+    border:none;
+    cursor:pointer;
+    display:inline-block;
+    transition: .4s;
+}
+    
+.button:hover {
+    color: var(--cor-quartenaria);
+    background-color: var(--cor-quinquenario);
+}
+
+.links-social{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+        color:var(--cor-quartenaria);
+}
+.logo-social{
+    width: 30px;  
+}
+
+
 .logo-rede-social{
     width: 40px;
 }
 
 footer {
     text-align: center;
+    padding: 25px;
 }
