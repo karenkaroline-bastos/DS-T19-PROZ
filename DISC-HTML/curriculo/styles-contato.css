@@ -1,0 +1,27 @@
+html{background-color: #D3CBEB;
+}
+
+.texto-form{
+    padding: 20px;
+    text-align: center;
+    color: #7547e5;
+    size: 20px;
+    font-size: 27px;
+}
+
+.formulario{
+    background-color: white;
+    padding: 100px;
+    width: 200px;
+    display: flex;
+
+}
+
+.img-moca{
+    position: absolute;
+    right: 10%;
+}
+
+
+
+@media (min-width: 700px) and (max-width: 1000px)
