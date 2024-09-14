@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-header: #ffffff;
+    --cor-principal: #5c469c43;
+
+    --font-header:"League Spartan", sans-serif;
+    --font-frasePrincipal: "Bebas Neue", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-principal);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--cor-header);
+    font-family: var(--font-header);
+
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    box-shadow: 0px 2px 15px #5c469c56;
+}
+
+header img {
+    margin: 10px;
+    padding: 10px;
+}
+
+header nav {
+    margin: 10px 70px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: #5c469c;
+}
+
+/* main */
+
+.introducao {
+    width: 100%;
+    height: 70vh;
+}
+
+.introducao .text {
+    width: 100%;
+    height: 35%;
+}
+
+/* procurar uma fonte melhor */
+.text p,
+.carousel p
+{
+    text-align: center;
+    padding: 30px;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: var(--font-header);
+    color: #5c469c;
+}
+
+.text p span {
+    color: black;
+}
+
+.image {
+    width: 620px;
+    height: 370px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    filter: drop-shadow(7px -8px 25px #3e00f95b);
+  }
+
+.carousel {
+    width: 100%;
+    height: 250px;
+    margin: 15px 0;
+}
+
+.carousel p {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.carousel p a {
+    text-decoration: none;
+    color: #5c469c;
+}
+
+.carousel .slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.carousel .slides a img {
+    transition: transform .2s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.279);
+}
+
+.carousel .slides a img:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+}
+
+.sobre {
+    width: 100%;
+    height: 15em;
+    background-color: #6e3eff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: var(--font-frasePrincipal);
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.image-sobre {
+    height: 15em;
+    width: 15em;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre .image-sobre img{
+    height: 15em;
+    width: 15em;
+    padding: 20px;
+    filter: drop-shadow(0 7px 10px rgba(0, 0, 0, 0.541));
+}
+
+.sobre .text-sobre {
+    width: 50%;
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.sobre .text-sobre .paragraph-sobre {
+    width: 22em;
+    font-family: var(--font-poppins);
+    text-align: center;
+    filter: drop-shadow(0px 1px 2px #ffffff31);
+}
+
+.text-sobre button {
+    height: 3em;
+    width: 15em;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    background-color: #430bead1;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.286);
+}
+
+.text-sobre button:hover {
+    background-color: #593fa8;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

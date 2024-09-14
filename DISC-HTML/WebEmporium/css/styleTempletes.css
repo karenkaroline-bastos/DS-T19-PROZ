@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-header: #ffffff;
+    --cor-primaria: #5c469c43;
+    --cor-secundaria:#5c469c56;
+    --cor-terciaria: #5c469c;
+    --cor-quartenaria:#7547E5;
+    --cor-quintenario: #D3CBEB;
+
+
+
+    --font-header:"League Spartan", sans-serif;
+    --font-frasePrincipal: "Bebas Neue", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-principal);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--cor-header);
+    font-family: var(--font-header);
+
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    box-shadow: 0px 2px 15px var(--cor-secundaria);
+}
+
+header img {
+    margin: 10px;
+    padding: 10px;
+}
+
+header nav {
+    margin: 10px 70px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: var(--cor-terciaria);
+}
+
+
+h1{
+    color: var(--cor-quartenaria);
+    text-align: center;
+    font-size: 24px;
+    margin: 50px;
+}
+
+h2{
+    font-size: 22px;
+    margin: 25px;
+    padding: 25px;
+    color: var(--cor-header);
+}
+
+.templates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgTemplates{
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+/*  FORMULARIO*/ 
+.todoFormulario{
+    background-color: var(--cor-terciaria);
+}
+
+.texto-form{
+    padding: 20px;
+    text-align: center;
+    color: var(--cor-quartenaria);
+    size: 20px;
+    font-size: 27px;
+}
+form{
+padding: 20px;
+}
+
+.formulario{
+    background-color: var(--cor-header);
+    padding: 100px;
+    width: 200px;
+    display: flex;
+
+}
+
+.img-moca{
+    position: absolute;
+    right: 10%;
+}
+
+
+
+@media (min-width: 700px) and (max-width: 1000px);
+
+
+
+footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
