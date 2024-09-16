@@ -12,12 +12,8 @@ function jogar(escolhaUsuario) {
             resultado = 'Você ganhou!';
         }else if (escolhaUsuario === 'tesoura' && escolhaComputador === 'papel'){
             resultado = 'Você ganhou!';
-        }else if (escolhaUsuario === 'pedra' && escolhaComputador === 'papel'){
-            resultado = 'Você Perdeu!';  
-        }else if (escolhaUsuario === 'papel' && escolhaComputador === 'tesoura'){
-            resultado = 'Você Perdeu!';
-        }   else if (escolhaUsuario === 'tesoura' && escolhaComputador === 'pedra'){
-            resultado = 'Você Perdeu!';
+        }else {
+            resultado = 'Você Perdeu!'
         };
 
         let resultadoElement = document.getElementById('resultado');
@@ -26,14 +22,12 @@ function jogar(escolhaUsuario) {
 
     document.getElementById('resultado').innerHTML = `
         Você escolheu <strong>${escolhaUsuario}</strong>.<br>
-        O computador escolheu <strong>${escolhaComputador}</strong><br>
-        <strong>${resultado}</strong>`;
+        O computador escolheu <strong>${escolhaComputador}.</strong><br>
+        <br><strong>${resultado}</strong>`;
 
     function exibirImagem(elementId, escolha) {
         const divImagem = document.getElementById(elementId);
-        divImagem.innerHTML = `<img width="200px" src="${escolha}.jpg" alt="${escolha}">`;
-
-
+        divImagem.innerHTML = `<img width="200px" src="${escolha}.png" alt="${escolha}">`;
     }
 
     exibirImagem('imagem1', escolhaUsuario);
