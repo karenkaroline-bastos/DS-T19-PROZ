@@ -1,0 +1,49 @@
+
+.leve{
+padding: 50px;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center; 
+    color: red;
+}
+
+h3{
+    text-align: center; 
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 15px;
+}
+
+h5{
+    font-size: 25px;
+    color: black;
+}
+.depoimento,
+.medio{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.imagem-medio{
+    width: 800px;
+}
+
+.imagem-depoimento{
+    width: 250px;
+    height: 200px;
+}
+
+.tutor{
+    color: rgb(50, 60, 206);
+}
+.descricao{
+    padding: 50px;
+}
